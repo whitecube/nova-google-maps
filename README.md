@@ -35,6 +35,24 @@ public function fields(Request $request)
 }
 ```
 
+## Storage
+The field stores the JSON data sent back by Algolia (minus a few unneeded sub-objects). This gives you a lot of information on the selected place/address. Here is an example:
+
+```json
+{
+    "name": "Bruxelles", 
+    "type": "city", 
+    "query": "Bruxelles", 
+    "value": "Bruxelles, Région de Bruxelles-Capitale - Brussels Hoofdstedelijk Gewest, Belgique", 
+    "county": "Bruxelles-Capitale", 
+    "latlng": {"lat": 50.8466, "lng": 4.3517}, 
+    "country": "Belgique", 
+    "postcode": "1000", 
+    "countryCode": "be", 
+    "administrative": "Région de Bruxelles-Capitale - Brussels Hoofdstedelijk Gewest"
+}
+```
+
 ## Configuration
 By default, you should reference your Google Maps API key in your `.env` file:
 
