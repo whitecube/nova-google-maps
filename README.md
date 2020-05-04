@@ -36,7 +36,13 @@ public function fields(Request $request)
 ```
 
 ## Configuration
-To do
+By default, you should reference your Google Maps API key in your `.env` file:
+
+```
+NOVA_GOOGLE_MAPS_API_KEY=your-api-key
+```
+
+Optionally, you can publish the config to change the API key location and the map's language by doing: `php artisan vendor:publish --tag=nova-google-maps`.
 
 ## 💖 Sponsorships
 
