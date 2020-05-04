@@ -2,7 +2,7 @@
 
 A laravel nova field to easily enter an address (uses the Algolia Places API) and show a preview in a Google Map. The result is stored in a json column and contains all the data sent by Algolia.
 
-![Preview of the nova-google-maps field](https://raw.githubusercontent.com/whitecube/nova-google-maps/master/nova-google-maps-preview.png?token=ACG6ENDBJ4QNIDZT4VOJZZC6WASDA)
+![Preview of the nova-google-maps field](https://github.com/whitecube/nova-google-maps/raw/master/nova-google-maps-preview.png)
 
 ## Installation
 
