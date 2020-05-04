@@ -11,7 +11,7 @@
                 v-model="value"
             />
 
-            <div class="whitecube-gmap mt-2" ref="map"></div>
+            <div class="whitecube-gmap mt-4" ref="map"></div>
         </template>
     </default-field>
 </template>
